@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.luar {
+    margin: 5rem;
+}
+
+.ips {
+    width: 100%;
+    overflow: hidden;
+}
+
+h1{
+    color: rgb(130, 136, 163);
+}
+.bg{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+}
+
+
+.gambar a img{
+    width: 12rem;
+}
+
+.gambar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30rem;
+    gap: 2rem;
+}
+
+.timeline {
+    background-color: rgb(215, 46, 159);
+    width: 30rem;
+    height: 15rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.luarIps {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+}
+
+.timeline .divTime {
+    display: flex;
+    flex-direction: column;
+}
+
+.kanan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.yutub a {
+    width: 100%;
+    height: 100%;
+}
+
+.yutub a img {
+    width: 100%;
+    height: 100%;
+}
