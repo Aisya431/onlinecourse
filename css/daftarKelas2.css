@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.navbar .ul-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3rem;
+    gap: .1rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.navbar .ul-1 li {
+    display: flex;
+    flex-direction: row;
+    width: 6rem;
+    height: 100%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar .ul-1 li:hover {
+    background-color: aquamarine;
+}
+
+.navbar .ul-2 {
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover img {
+    /* tambahkan gaya tambahan jika diinginkan */
+    /* misalnya, tampilan gambar saat dropdown muncul */
+  }
+.carousel {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.carousel h2 {
+    margin-left: 5rem;
+    font-family: 'Poppins';
+}
+
+.carousel .div-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.carousel .popup{
+    width: 400px;
+    background-color: aqua;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px  30px;
+    color: brown;
+
+}
+.carousel .popup h2{
+    font-size: 38px ;
+    font-weight: 500;
+    margin: 30px 0 10px;
+    font-style: 'Poppins';
+}
+.carousel .popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #5376F1;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    font-style: 'Poppins';
+}
+
+.div-mentor {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    font-family: 'Poppins';
+}
+
+.div-mentor .kotak-luar {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.kotak-luar .kotak-mentor {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 10rem;
+    box-shadow: 16px 22px 35px -4px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 16px 22px 35px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: 16px 22px 35px -4px rgba(0,0,0,0.42);;
+
+}
+
+.kotak-mentor img {
+    width: 100%;
+}
+
+.kotak-mentor h6 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.kotak-mentor p {
+    font-size: 0.9rem;
+}
+
